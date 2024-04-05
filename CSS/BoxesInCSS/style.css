@@ -1,3 +1,26 @@
-h1 {
-    color: blueviolet;
+/* BOX DIMENSION  */
+/* any element have own box  */
+/* div {
+    height: 100px;
+    width: 200px;
+    background-color: #cdcd0e;
+    
+}
+p {
+    width: 190px;
+    height: 210px;
+    /* background-color: violet; 
+} */
+
+
+/* Limiting Width  > Max width and Min width 
+ */
+ 
+td.description {
+    min-width: 450px;
+    max-width: 650px;
+    text-align: left;
+    padding: 5px;
+    margin: 0px;
+
 }
