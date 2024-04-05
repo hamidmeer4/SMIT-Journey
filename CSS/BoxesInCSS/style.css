@@ -28,7 +28,7 @@ p {
 
 
 /* Limiting height  */
-
+/* 
 h2, p {
    width: 400px;
    font-size: 90%;
@@ -41,7 +41,112 @@ h2 {
 }
  
 p {
-    /* min-height: 100px; */
+    /* min-height: 100px; 
     max-height: 300px;
     border: 1px solid red;
+} */
+
+
+
+/* Overflowing Content  */
+
+/* hidden , scroll  */
+
+/* p.one {
+    max-height: 50px;
+    border: 1px solid red;
+    overflow: hidden;
+   
 }
+p.two {
+    max-height: 50px;
+    border: 1px solid red;
+    
+    overflow: scroll;
+} */
+
+
+
+/* Border width  */
+
+/* p.one {
+    border-style: solid;
+    border-width: thin;
+}
+p.two {
+    border-style: solid;
+    border-width: medium;
+}
+p.three {
+    border-style: solid;
+    border-width: thick;
+}
+
+p.four {
+    border-style: solid;
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+    border-right-width: 6px;
+    border-left-width: 7px;
+}
+p.five {
+   /* Shorthand  > clockwise  
+    border-style: solid;
+    border-width: 1px 2px 3px 4px;
+  
+} */
+
+
+
+
+/* Border Style  */
+
+/* solid ,dashed,dotted,inset ,outset,groove  */
+
+/* p.one {
+    border-style: solid;
+}
+p.two {
+    border-style: dashed;
+}
+p.three {
+    border-style: dotted;
+}
+p.four {
+    border-style: inset;
+}
+p.five {
+    border-style: groove;
+} */
+
+
+
+/* Border Color  */
+  /* clockwised */
+/* p.one {
+    border-style: groove;
+    border-color: blueviolet;
+
+}
+p.two {
+    border-style: solid;
+   border-top-color: yellowgreen;
+   border-bottom-color: rgb(65, 86, 23);
+   border-right-color: rgb(191, 216, 141);
+   border-left-color: rgb(0, 0, 0);
+
+}
+p.three {
+    /* clockwised 
+    border-style: groove;
+    border-color: aqua red goldenrod royalblue;
+
+} */
+
+
+/* ShortHand Border  */
+
+p.one {
+    border: 10px solid hotpink;
+}
+
