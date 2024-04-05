@@ -168,3 +168,88 @@ p {
     border: 5px solid green;
     padding: 30px 50px 70px 90px;
 } */
+
+
+
+/* Margin  */
+
+/* p {
+    border: 4px solid teal;
+    margin: 50px;
+} */
+
+
+/* shorthand margin  */
+
+/* p {
+    border: 5px solid tomato;
+   
+}
+
+.p2{ 
+    margin-top: 200px;
+} */
+
+
+
+/* Centering element  */
+
+
+
+/* p {
+    width: 300px;
+    height: 100px;
+    border: 5px solid tomato;
+    padding: 50px;
+   
+}
+p.p2 {
+    /* margin: 10px auto 10px auto; 
+    margin-left: auto;
+    margin-right: auto;
+    
+} */
+
+
+
+
+/* CHANGE INLINE BLOCK   */
+
+/* li {
+    display: inline;
+    padding-right: 10px;
+    
+}
+.coming-soon {
+    display: none;
+} */
+
+
+/* Hiding Boxes  */
+/* Visibility  */
+/* 
+li {
+    display: inline;
+    margin-right: 10px;
+}
+li.coming-soon {
+    /* only hide the space will occupy  
+    visibility: hidden;
+    /* visibility: visible; 
+} */ 
+
+
+
+/* Border Images  */
+
+/* p.one{ 
+    /* border: 30px solid transparent;
+    /* border-image: url(./image/dots.png) 60 repeat; 
+    /* border-image: url(./image/dots.png) 60 stretch; 
+    border-image: url(./image/dots.png) 40 round;
+    padding: 20px; 
+} */
+
+
+
+/* Box Shadow  */
