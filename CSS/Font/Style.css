@@ -1,0 +1,298 @@
+
+/* Font family  */
+/* body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1 {
+    font-family: cursive;
+}
+
+.credit {
+    font-family: "Courier New", Courier,
+    monospace;
+
+}
+.intro {
+    font-family: 'Courier New', Courier, monospace;
+} */
+
+
+
+/* h1 {
+    color: red;
+} */
+
+
+/* pixels  */
+
+/* p {
+    font-size: 60px;
+} */
+
+
+/* percentage  = 100% = 16px */
+
+/* p {
+    font-size: 300%;
+} */
+
+
+/* default value  */
+
+/* p {
+    font-size: xx-small;
+} */
+
+
+/* EMS  */
+/* 
+p {
+    font-size: 4em;
+} */
+
+
+/* font weight  */
+
+/* p {
+     font-weight: 700; 
+    font-weight: bold;
+} */
+
+
+/* font style  */
+
+/* p {
+   /* font-style: italic; 
+   font-style: normal;
+
+} */
+
+
+
+
+/* comapre 3 style using id selector  */
+
+/* #normal {
+    font-style: normal;
+}
+#italic {
+    font-style:italic;
+}
+#oblique {
+    font-style: oblique;
+} */
+
+
+
+/* text transform  */
+
+/* h1 {
+    /* text-transform: capitalize; */
+    /* text-transform: uppercase; 
+    /* text-transform: lowercase; 
+} */
+
+
+/* text Decoration  */
+/* 
+#none {
+    text-decoration: none;
+}
+#underline {
+    text-decoration: underline;
+}
+#overline {
+    text-decoration: overline;
+}
+#line-through {
+    text-decoration: line-through;
+}
+ */
+
+
+
+ /* Leading 
+ 
+ Line height 
+ */
+
+ /* p {
+    line-height: 45px;
+ } */
+
+
+
+
+ /* words spacing and letter spacig  */
+
+
+ /* #words {
+    word-spacing: 30px;
+ }
+
+ #letter {
+    letter-spacing: 30px;
+ } */
+
+
+
+ /* Text align  */
+
+ /* #right {
+    text-align: right;
+ }
+ #left {
+    text-align: left;
+ }
+ 
+ #center {
+    text-align: center;
+ }
+ #justify {
+    text-align: justify;
+ } */
+
+
+
+
+ /* Vertically alignment  mostly used in inline element  */
+
+ /* img{
+    /* vertical-align: text-top; */
+    /* vertical-align: middle; */
+    /* vertical-align: sub; */
+    /* vertical-align: super; */
+    /* vertical-align: top;
+   
+ }  */
+
+
+ /* text indent >
+ 
+ esmy hamari pass first line jo hai wo andar jiaga  */
+
+
+ /* p {
+    text-indent: 60px;
+    text-align: justify;
+ } */
+
+
+
+
+ /* TEXT SHADOW  */
+/* 
+ h1 {
+ background-color: #eeeeee;
+ color: #666666;
+ text-shadow: 2px 2px 3px #380808;
+ }
+ p {
+    background-color: #eeeeee;
+    color: #666666;
+    text-shadow: 1px 1px 0px #000000;
+ } */
+
+
+
+
+
+ /* FIRST LETTER AND FIRST LINE  */
+
+ /* p::first-letter {
+    color:  red;
+ } */
+
+ /* p::first-line {
+    color: tomato;
+ } */
+
+
+
+ /* Styling Links  */
+/* 
+ ul li a:link {
+    color: green;
+ }
+ ul li a:visited {
+    color: red;
+ } */
+
+
+
+
+ /* Responding to user  */
+
+/* Hover  */
+
+/* .btn:hover { 
+    background-color: rgb(101, 2, 213);
+
+}
+
+/* active  
+
+.btn:active {
+    background-color: red;
+} */
+
+/* Focus  */
+/* .btn:focus {
+    background-color: blue;
+
+}
+
+.textBox:focus {
+    background-color: teal;
+    color: wheat;
+    border-radius: 50px;
+
+
+} */
+
+/* Attribute Selector  */
+
+/* Existance Selector  */
+/* h2[test] {
+    color: blue;
+} */
+
+
+
+/* Equality  */
+/* h1[name="hi"] {
+    color: teal;
+} */
+
+
+/* Space  */
+
+/* h3[test~="Hamid"] {
+    color: crimson;
+} */
+/* h3[test~="hello"] {
+    color: crimson;
+} */
+
+
+
+/* Prefix  */
+
+/* h3[test^="h"]{
+    color: violet;
+} */
+
+
+
+/* Substring  */
+
+/* h3[test*="ell"] {
+    color: springgreen;
+} */
+
+
+/* Suffix  */
+
+h3[test$="o"]{
+    color: cadetblue;
+}
