@@ -261,3 +261,42 @@ li.coming-soon {
     box-shadow: 10px 10px 10px 10px red; 
     padding: 10px;
 } */
+
+
+
+
+/* Rounded Corner  */
+
+/* body {
+    background-color: black;
+} */
+/* p.one {
+    border: 4px solid teal;
+    padding: 20px;
+    width: 200px;
+    border-radius: 10px; 
+    margin-left: auto;
+    margin-right: auto;
+    background-color: gainsboro;
+    color: black;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+} */
+
+/* Mooon */
+/* p.two {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%; 
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+} */
+/* img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 10px solid gainsboro;
+    margin-left: auto;
+    margin-right: auto;
+} */
