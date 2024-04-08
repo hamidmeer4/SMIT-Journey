@@ -1,4 +1,4 @@
-body {
+/* body {
     font-family: Arial, Helvetica, sans-serif;
     width: 750px;
     color: #665544;;
@@ -6,6 +6,33 @@ body {
 h1 {
     background-color: azure;
     padding: 10px;
+}
+p {
+    width: 450px;
+} */
+
+
+
+
+/* RELATIVE POSITIONING  */
+
+
+/* p#example {
+    position: relative;
+    top: 10px;
+    left: 100px;
+
+} */
+
+
+/* The Absolute Positioning  */
+
+
+h1 {
+    position: absolute;
+    top: 0px;
+    left: 500px;
+    width: 250px;
 }
 p {
     width: 450px;
