@@ -15,4 +15,30 @@
 } */
 
 
+
+
 /* Images for Bullet  */
+
+/* ul {
+    list-style-image: url("./image/icons20.png");
+
+}
+li {
+    margin: 10px 0px 0px 0px;
+} */
+
+
+
+/* .illuminations {
+    list-style-position: outside;
+}
+.season {
+    list-style-position: inside;
+} */
+
+
+/* LIST SHORTHAND */
+
+ul {
+    list-style:inside square ;
+}
