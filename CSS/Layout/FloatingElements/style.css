@@ -1,0 +1,60 @@
+/* Floating Elements  */
+
+/* 
+blockquote {
+    float: right;
+    width: 275px;
+    font-size: 130%;
+    font-style: italic;
+    font-family: Georgia, Times, serif;
+    margin: 0px 0px 10px 10px;
+    padding: 10px;
+    border-top: 1px solid #665544;
+    border-bottom: 1px solid #665544;} */
+
+/* Place element side by side  */
+
+/* body {
+        width: 750px;
+        font-family: Arial, Verdana, sans-serif;
+        color: #665544;}
+    p {
+        width: 300px;
+        float: left;
+        margin: 10px;
+        padding: 8px;
+        background-color: #efefef;} */
+
+/* Clear Float */
+/* 
+        img {
+            float: right;
+        }
+        p {
+            /* clear: both; 
+            /* clear: right; 
+            clear: right; 
+            /* means koi bhe value hamein nahi chaye esky samny  
+        } */
+
+.column1of3 {
+  float: left;
+  width: 150px;
+  margin: 10px;
+  border: 1px solid gray;
+  padding: 10px;
+}
+.column2of3 {
+  float: left;
+  width: 150px;
+  margin: 10px;
+  border: 1px solid gray;
+  padding: 10px;
+}
+.column3of3 {
+float: left;
+  width: 150px;
+  margin: 10px;
+  border: 1px solid gray;
+  padding: 10px;
+}
