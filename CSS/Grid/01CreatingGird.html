@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS GRID</title>
+</head>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .container {
+         background-color: #eee;
+         width: 600px;
+         height: 400px;
+         margin: 50px 0 0 100px;
+         display: grid;
+         grid-template-columns: repeat(2,1fr);
+         grid-template-rows: 100px 100px 100px;
+
+         grid-gap: 20px;
+
+    }
+    .items1 {
+        background: orangered;
+    }
+    .items2 {
+        background: rgb(81, 34, 17);
+    }
+    .items3 {
+        background: rgb(12, 170, 73);
+    }
+    .items4 {
+        background: rgb(74, 66, 183);
+    }
+    .items5 {
+        background: rgb(224, 77, 190);
+    }
+    .items6 {
+        background: rgb(188, 37, 60);
+    }
+</style>
+<body>
+    <h1>CSS GRID Creating Grids</h1>
+    <div class="container">
+      <div class="item items1">FIRST</div>
+      <div class="item items2">SECONF</div>
+      <div class="item items3">THIRD</div>
+      <div class="item items4">FOUTRTH</div>
+      <div class="item items5">FIFTH</div>
+      <div class="item items6">SIX</div>  
+    </div>
+</body>
+</html>
