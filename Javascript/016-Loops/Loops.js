@@ -54,15 +54,15 @@
 
 // For  > Kisi chez ko repeatedly chalana 
 
-const cleanestCities = ["Peshawar", "Islamabad", "Karachi", "Lahore", "Multan"];
-const cityToCheck = prompt("enter city");
+// const cleanestCities = ["Peshawar", "Islamabad", "Karachi", "Lahore", "Multan"];
+// const cityToCheck = prompt("enter city");
 
-for(let cityIndex = 0; cityIndex < cleanestCities.length; cityIndex++) {
-  if(cityToCheck === cleanestCities[cityIndex]) {
-    alert("its the cleanist city in pakistan")
-  }
+// for(let cityIndex = 0; cityIndex < cleanestCities.length; cityIndex++) {
+//   if(cityToCheck === cleanestCities[cityIndex]) {
+//     alert("its the cleanist city in pakistan")
+//   }
 
-}
+// }
 
 
 // now dry run 
